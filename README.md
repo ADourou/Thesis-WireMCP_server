@@ -5,7 +5,7 @@
 > **Thesis:** An MCP server (Node.js) where an AI autonomously translates natural language into dynamic `tshark` commands for pcap analysis.
 
 ### 💡 Project Motivation
-This project **extends the `analyze_pcap_files` tool** found in the [WireMCP](https://github.com/0xKoda/WireMCP) project.
+This project **extends the `analyze_pcap` tool** found in the [WireMCP](https://github.com/0xKoda/WireMCP) project.
 
 While WireMCP provides an excellent foundation for MCP-based analysis, its default tool is limited to basic 5-tuple fields (e.g., `ip.src`, `ip.dst`, `tcp.srcport`). This is insufficient for the more demanding queries required by academic scenarios (like the **Jim Kurose Wireshark Labs**), which need access to a wide variety of specific protocol fields (e.g., `http.host`, `dns.cname`).
 
